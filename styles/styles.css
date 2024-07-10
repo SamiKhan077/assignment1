@@ -116,3 +116,47 @@ nav {
     height: 300px;
     margin:40px 400px;
 }
+
+.current{
+    align-items: center;
+    text-align: center;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 0;
+    margin-bottom: 100px;
+}
+
+.about-code{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.about-html{
+    text-align: left;
+    border: 2px solid transparent;
+    border-radius: 16px;
+    background-color: #FF4C1E;
+    box-sizing: 100px;
+    padding: 35px;
+}
+
+.about-css{
+    text-align: left;
+    border: 2px solid transparent;
+    border-radius: 16px;
+    background-color: #004CE8;
+    box-sizing: 100px;
+    padding: 35px;
+}
+
+.about-js{
+    text-align: left;
+    border: 2px solid transparent;
+    border-radius: 16px;
+    background-color: #FFDF00;
+    box-sizing: 100px;
+    padding: 35px;
+}
