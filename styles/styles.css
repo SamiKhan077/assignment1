@@ -125,6 +125,9 @@ nav {
     margin-top: 0;
     margin-bottom: 100px;
 }
+.current a {
+    color:#0D1321 ;
+}
 
 .about-code{
     display: flex;
@@ -138,7 +141,7 @@ nav {
     text-align: left;
     border: 2px solid transparent;
     border-radius: 16px;
-    background-color: #FF4C1E;
+    background-color: #F4AC9A;
     box-sizing: 100px;
     padding: 35px;
 }
@@ -147,7 +150,7 @@ nav {
     text-align: left;
     border: 2px solid transparent;
     border-radius: 16px;
-    background-color: #004CE8;
+    background-color: #BDCCEC;
     box-sizing: 100px;
     padding: 35px;
 }
@@ -156,7 +159,61 @@ nav {
     text-align: left;
     border: 2px solid transparent;
     border-radius: 16px;
-    background-color: #FFDF00;
+    background-color: #FFF18F;
     box-sizing: 100px;
     padding: 35px;
+}
+
+.support{
+    align-items: center;
+    text-align: center;
+    margin: 40px 0px;
+    background: url(assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+}
+
+.support input{
+    border-radius: 16px;
+    padding: 20px 80px;
+}
+
+.support button {
+    padding: 20px 25px;
+    border: 1px solid transparent;
+    border-radius: 16px;
+    margin: 10px;
+}
+
+.footer{
+    background-color: #d7e0f3;
+    border-radius: 8px;
+}
+.footer-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0 150px ;
+}
+
+.footer-a a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0f357c;
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.text-color{
+    color: #0D1321;
+}
+p{
+    color: #0D1321;
 }
